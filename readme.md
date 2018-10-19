@@ -18,8 +18,18 @@ BAILEY,65
 ## Generate a cool name for your dog
 
 The code takes one parameter, how many names to generate
-for example i'd like to generate six names, i'll pass 6
+for example i'd like to generate six names, i'll pass 5
 
 ```shell
-python dogGenerator.py 6
-``` 
+python dogGenerator.py 5
+```
+
+this is my try ;)  
+
+```shell
+Kuke
+Fare
+Uika
+Bee
+Jeinie
+```
