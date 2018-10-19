@@ -17,19 +17,39 @@ BAILEY,65
 
 ## Generate a cool name for your dog
 
-The code takes one parameter, how many names to generate
-for example i'd like to generate six names, i'll pass 5
+1. clone repo
 
-```shell
-python dogGenerator.py 5
-```
+    ```shell
+    git clone https://github.com/deepKratos/dogNamesGenerator.git
+    ```
 
-this is my try ;)  
+2. create a virtual environment
 
-```shell
-Kuke
-Fare
-Uika
-Bee
-Jeinie
-```
+    ```shell
+    python -m venv myenv
+    cd myenv\Scripts\
+    activate
+    ```
+
+3. install the dependencies
+
+    ```shell
+    pip install numpy
+    ```
+4. Execute the code
+
+    The script takes one parameter, how many names to generate. For example, I'd like to generate five names, I'll pass 5
+
+    ```shell
+    python dogGenerator.py 5
+    ```
+
+    this is my try ;)  
+
+    ```shell
+    Kuke
+    Fare
+    Uika
+    Bee
+    Jeinie
+    ```
